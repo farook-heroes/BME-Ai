@@ -1,0 +1,56 @@
+{
+    "models": [
+        {
+            "name": "Oral Cancer",
+            "description": "Oral Cancer based on scan report",
+            "model": "oral_cancer.tflite",
+            "endpoint": "oral_cancer",
+            "args": [
+                {
+                    "name": "image",
+                    "description": "the scan report of the patient"
+                }
+            ]
+        },
+        {
+             
+            "name": "Capsule Endoscopy",
+            "description": "Endoscopy based on scan report",
+            "model": "capsule_endoscopy.tflite",
+            "endpoint": "capsule_endoscopy",
+            "args": [
+                {
+                    "name": "image",
+                    "description": "the scan report of the patient"
+                }
+            ]
+        
+        },
+        {
+            "name": "DBT stage 1",
+            "description": "DBT stage 1 based on scan report",
+            "model": "DBT_stage_1.tflite",
+            "endpoint": "DBT_stage_1",
+            "args": [
+                {
+                    "name": "image",
+                    "description": "the scan report of the patient"
+                }
+            ]
+        },
+        {
+            "name": "DBT stage 2",
+            "description": "DBT stage 2 based on scan report",
+            "model": "DBT_stage_2.tflite",
+            "endpoint": "DBT_stage_2",
+            "args": [
+                {
+                    "name": "image",
+                    "description": "the scan report of the patient"
+                }
+            ]
+        }
+        
+
+    ]
+}
