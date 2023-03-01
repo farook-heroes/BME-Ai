@@ -74,7 +74,7 @@ def get_models():
 
 # create a predict route with a query parameter for the model name
 @app.route('/predict/<model_name>', methods=['POST'])
-
+#@require_auth
 def predict(model_name):
 
     # return error if the model does not exist
